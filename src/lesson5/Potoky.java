@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Potoky {
-    static final int THR = 4  ;//кол-во потоков (кратно 2-м!!!)
+    static final int THR = 40  ;//кол-во потоков (кратно 2-м!!!)
     static final int SIZE = 10000000;
     static final int HALF = SIZE /THR;//размер нарезанного массива
 
